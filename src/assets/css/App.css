@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.img {
+  opacity: 0.5;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.centered {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.text{
+  color:white;
+  text-align:center;
+   margin-top: 110px;
+   line-height: normal;
+   font-size: 3.9ch
+}
+
+.container{
+  padding-Top: 15px;
+}
+
+.slider{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.cat2{
+  width: 100%;
+  height: fit-content;
+}
+
+.pic{
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 990px) {
+  .text { margin-top: 30px;}
+}
+@media only screen and (max-width: 769px) {
+  /* For desktop: */
+  .text { margin-top: 30px; font-size: 2.1ch}
+}
+
+@media only screen and (max-width: 576) {
+  /* For tablets: */
+  .text { margin-top: 0px; font-size: 1ch}
+}
+@media only screen and (max-width: 552px) {
+ .slider{align-content: stretch}
+ .cat2{align-content: stretch;}
+}
+
