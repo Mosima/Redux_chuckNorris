@@ -8,8 +8,8 @@ import Joke from '../components/Joke';
   render() {
     return (
       <div className="container" >
-          <Col sm="12"><Category/></Col>
           <Col sm="12"><Joke joke={this.props.category}/></Col>
+          <Col sm="12"><Category/></Col>
       </div>
     );
   }
