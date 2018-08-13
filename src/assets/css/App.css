@@ -45,7 +45,11 @@
 }
 
 .container{
-  padding-Top: 15px;
+  padding-Top: 50px;
+  
+}
+.category{
+  padding-Top: 30px;
 }
 
 .slider{
@@ -60,6 +64,7 @@
 
 .pic{
   opacity: 0.8;
+  height: fit-content;
 }
 
 @media only screen and (max-width: 990px) {
